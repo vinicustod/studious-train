@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2433498C264CC1560025F496 /* StationsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2433498B264CC1560025F496 /* StationsResponse.swift */; };
+		2433499B264D44830025F496 /* GSMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24334995264D44830025F496 /* GSMapViewController.swift */; };
+		24484428264B50D9000F9AA3 /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24484422264B50D9000F9AA3 /* MapPresenter.swift */; };
+		24484429264B50D9000F9AA3 /* MapWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24484423264B50D9000F9AA3 /* MapWorker.swift */; };
+		2448442A264B50D9000F9AA3 /* MapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24484424264B50D9000F9AA3 /* MapRouter.swift */; };
+		2448442B264B50D9000F9AA3 /* MapModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24484425264B50D9000F9AA3 /* MapModels.swift */; };
+		2448442C264B50D9000F9AA3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24484426264B50D9000F9AA3 /* MapViewController.swift */; };
+		2448442D264B50D9000F9AA3 /* MapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24484427264B50D9000F9AA3 /* MapInteractor.swift */; };
+		248683EF264B4D0A00F0ECE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248683EE264B4D0A00F0ECE9 /* AppDelegate.swift */; };
+		248683F1264B4D0A00F0ECE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248683F0264B4D0A00F0ECE9 /* SceneDelegate.swift */; };
+		248683F3264B4D0A00F0ECE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248683F2264B4D0A00F0ECE9 /* ViewController.swift */; };
+		248683F6264B4D0A00F0ECE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248683F4264B4D0A00F0ECE9 /* Main.storyboard */; };
+		248683F8264B4D0B00F0ECE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 248683F7264B4D0B00F0ECE9 /* Assets.xcassets */; };
+		248683FB264B4D0B00F0ECE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248683F9264B4D0B00F0ECE9 /* LaunchScreen.storyboard */; };
+		2486840A264B4D7C00F0ECE9 /* StationsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24868406264B4D7C00F0ECE9 /* StationsRequest.swift */; };
+		2486840B264B4D7C00F0ECE9 /* HereService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24868407264B4D7C00F0ECE9 /* HereService.swift */; };
+		2486840C264B4D7C00F0ECE9 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24868408264B4D7C00F0ECE9 /* Service.swift */; };
+		2486840D264B4D7C00F0ECE9 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24868409264B4D7C00F0ECE9 /* APIRequest.swift */; };
+		DE9BFD64F4E588836480B855 /* Pods_StudiousBus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A293F9F20055AED77A13DCDC /* Pods_StudiousBus.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2433498B264CC1560025F496 /* StationsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsResponse.swift; sourceTree = "<group>"; };
+		24334995264D44830025F496 /* GSMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSMapViewController.swift; sourceTree = "<group>"; };
+		24484422264B50D9000F9AA3 /* MapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
+		24484423264B50D9000F9AA3 /* MapWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapWorker.swift; sourceTree = "<group>"; };
+		24484424264B50D9000F9AA3 /* MapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRouter.swift; sourceTree = "<group>"; };
+		24484425264B50D9000F9AA3 /* MapModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModels.swift; sourceTree = "<group>"; };
+		24484426264B50D9000F9AA3 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		24484427264B50D9000F9AA3 /* MapInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInteractor.swift; sourceTree = "<group>"; };
+		248683EB264B4D0A00F0ECE9 /* StudiousBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudiousBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		248683EE264B4D0A00F0ECE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		248683F0264B4D0A00F0ECE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		248683F2264B4D0A00F0ECE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		248683F5264B4D0A00F0ECE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		248683F7264B4D0B00F0ECE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		248683FA264B4D0B00F0ECE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		248683FC264B4D0B00F0ECE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24868406264B4D7C00F0ECE9 /* StationsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationsRequest.swift; sourceTree = "<group>"; };
+		24868407264B4D7C00F0ECE9 /* HereService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HereService.swift; sourceTree = "<group>"; };
+		24868408264B4D7C00F0ECE9 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		24868409264B4D7C00F0ECE9 /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		856391B683C294E35F86A0B0 /* Pods-StudiousBus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudiousBus.release.xcconfig"; path = "Target Support Files/Pods-StudiousBus/Pods-StudiousBus.release.xcconfig"; sourceTree = "<group>"; };
+		A252B3204CA30F7FB436588E /* Pods-StudiousBus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudiousBus.debug.xcconfig"; path = "Target Support Files/Pods-StudiousBus/Pods-StudiousBus.debug.xcconfig"; sourceTree = "<group>"; };
+		A293F9F20055AED77A13DCDC /* Pods_StudiousBus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudiousBus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		248683E8264B4D0A00F0ECE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9BFD64F4E588836480B855 /* Pods_StudiousBus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2433498A264CC1240025F496 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				2433498B264CC1560025F496 /* StationsResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		24484420264B5087000F9AA3 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				24484421264B5092000F9AA3 /* Map */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		24484421264B5092000F9AA3 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				24334995264D44830025F496 /* GSMapViewController.swift */,
+				24484422264B50D9000F9AA3 /* MapPresenter.swift */,
+				24484423264B50D9000F9AA3 /* MapWorker.swift */,
+				24484424264B50D9000F9AA3 /* MapRouter.swift */,
+				24484425264B50D9000F9AA3 /* MapModels.swift */,
+				24484426264B50D9000F9AA3 /* MapViewController.swift */,
+				24484427264B50D9000F9AA3 /* MapInteractor.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		248683E2264B4D0A00F0ECE9 = {
+			isa = PBXGroup;
+			children = (
+				248683ED264B4D0A00F0ECE9 /* StudiousBus */,
+				248683EC264B4D0A00F0ECE9 /* Products */,
+				5B74546F820181FF47484700 /* Pods */,
+				B4CEA39FF6EAEB824DC02CED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		248683EC264B4D0A00F0ECE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				248683EB264B4D0A00F0ECE9 /* StudiousBus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		248683ED264B4D0A00F0ECE9 /* StudiousBus */ = {
+			isa = PBXGroup;
+			children = (
+				24484420264B5087000F9AA3 /* Scenes */,
+				24868403264B4D7C00F0ECE9 /* Network */,
+				248683EE264B4D0A00F0ECE9 /* AppDelegate.swift */,
+				248683F0264B4D0A00F0ECE9 /* SceneDelegate.swift */,
+				248683F2264B4D0A00F0ECE9 /* ViewController.swift */,
+				248683F4264B4D0A00F0ECE9 /* Main.storyboard */,
+				248683F7264B4D0B00F0ECE9 /* Assets.xcassets */,
+				248683F9264B4D0B00F0ECE9 /* LaunchScreen.storyboard */,
+				248683FC264B4D0B00F0ECE9 /* Info.plist */,
+			);
+			path = StudiousBus;
+			sourceTree = "<group>";
+		};
+		24868403264B4D7C00F0ECE9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				24868404264B4D7C00F0ECE9 /* HereService */,
+				24868408264B4D7C00F0ECE9 /* Service.swift */,
+				24868409264B4D7C00F0ECE9 /* APIRequest.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		24868404264B4D7C00F0ECE9 /* HereService */ = {
+			isa = PBXGroup;
+			children = (
+				2433498A264CC1240025F496 /* Response */,
+				24868405264B4D7C00F0ECE9 /* Requests */,
+				24868407264B4D7C00F0ECE9 /* HereService.swift */,
+			);
+			path = HereService;
+			sourceTree = "<group>";
+		};
+		24868405264B4D7C00F0ECE9 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				24868406264B4D7C00F0ECE9 /* StationsRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		5B74546F820181FF47484700 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A252B3204CA30F7FB436588E /* Pods-StudiousBus.debug.xcconfig */,
+				856391B683C294E35F86A0B0 /* Pods-StudiousBus.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B4CEA39FF6EAEB824DC02CED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A293F9F20055AED77A13DCDC /* Pods_StudiousBus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		248683EA264B4D0A00F0ECE9 /* StudiousBus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 248683FF264B4D0B00F0ECE9 /* Build configuration list for PBXNativeTarget "StudiousBus" */;
+			buildPhases = (
+				31AC652E32853C7C4FD94DDC /* [CP] Check Pods Manifest.lock */,
+				248683E7264B4D0A00F0ECE9 /* Sources */,
+				248683E8264B4D0A00F0ECE9 /* Frameworks */,
+				248683E9264B4D0A00F0ECE9 /* Resources */,
+				58DABEDECA77BFC28EAA101E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudiousBus;
+			productName = StudiousBus;
+			productReference = 248683EB264B4D0A00F0ECE9 /* StudiousBus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		248683E3264B4D0A00F0ECE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					248683EA264B4D0A00F0ECE9 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 248683E6264B4D0A00F0ECE9 /* Build configuration list for PBXProject "StudiousBus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 248683E2264B4D0A00F0ECE9;
+			productRefGroup = 248683EC264B4D0A00F0ECE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				248683EA264B4D0A00F0ECE9 /* StudiousBus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		248683E9264B4D0A00F0ECE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248683FB264B4D0B00F0ECE9 /* LaunchScreen.storyboard in Resources */,
+				248683F8264B4D0B00F0ECE9 /* Assets.xcassets in Resources */,
+				248683F6264B4D0A00F0ECE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31AC652E32853C7C4FD94DDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StudiousBus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58DABEDECA77BFC28EAA101E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StudiousBus/Pods-StudiousBus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StudiousBus/Pods-StudiousBus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StudiousBus/Pods-StudiousBus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		248683E7264B4D0A00F0ECE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248683F3264B4D0A00F0ECE9 /* ViewController.swift in Sources */,
+				2486840D264B4D7C00F0ECE9 /* APIRequest.swift in Sources */,
+				24484429264B50D9000F9AA3 /* MapWorker.swift in Sources */,
+				248683EF264B4D0A00F0ECE9 /* AppDelegate.swift in Sources */,
+				2433499B264D44830025F496 /* GSMapViewController.swift in Sources */,
+				24484428264B50D9000F9AA3 /* MapPresenter.swift in Sources */,
+				2486840B264B4D7C00F0ECE9 /* HereService.swift in Sources */,
+				2486840A264B4D7C00F0ECE9 /* StationsRequest.swift in Sources */,
+				2448442D264B50D9000F9AA3 /* MapInteractor.swift in Sources */,
+				2448442C264B50D9000F9AA3 /* MapViewController.swift in Sources */,
+				2448442A264B50D9000F9AA3 /* MapRouter.swift in Sources */,
+				248683F1264B4D0A00F0ECE9 /* SceneDelegate.swift in Sources */,
+				2486840C264B4D7C00F0ECE9 /* Service.swift in Sources */,
+				2448442B264B50D9000F9AA3 /* MapModels.swift in Sources */,
+				2433498C264CC1560025F496 /* StationsResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		248683F4264B4D0A00F0ECE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				248683F5264B4D0A00F0ECE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		248683F9264B4D0B00F0ECE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				248683FA264B4D0B00F0ECE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		248683FD264B4D0B00F0ECE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		248683FE264B4D0B00F0ECE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24868400264B4D0B00F0ECE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A252B3204CA30F7FB436588E /* Pods-StudiousBus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TLC28LRBTP;
+				INFOPLIST_FILE = StudiousBus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pakas.StudiousBus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24868401264B4D0B00F0ECE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 856391B683C294E35F86A0B0 /* Pods-StudiousBus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TLC28LRBTP;
+				INFOPLIST_FILE = StudiousBus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pakas.StudiousBus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		248683E6264B4D0A00F0ECE9 /* Build configuration list for PBXProject "StudiousBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248683FD264B4D0B00F0ECE9 /* Debug */,
+				248683FE264B4D0B00F0ECE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		248683FF264B4D0B00F0ECE9 /* Build configuration list for PBXNativeTarget "StudiousBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24868400264B4D0B00F0ECE9 /* Debug */,
+				24868401264B4D0B00F0ECE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 248683E3264B4D0A00F0ECE9 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - URLQueryItemEncoder (0.2.3)
+
+DEPENDENCIES:
+  - URLQueryItemEncoder
+
+SPEC REPOS:
+  trunk:
+    - URLQueryItemEncoder
+
+SPEC CHECKSUMS:
+  URLQueryItemEncoder: ff0750e87008103d5434931e58689e7f038d82b3
+
+PODFILE CHECKSUM: 4223967032d66aecd3d0dad17659f3c4be5dcf87
+
+COCOAPODS: 1.10.1
