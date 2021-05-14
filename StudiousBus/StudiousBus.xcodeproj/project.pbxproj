@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2433498C264CC1560025F496 /* StationsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2433498B264CC1560025F496 /* StationsResponse.swift */; };
-		2433499B264D44830025F496 /* GSMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24334995264D44830025F496 /* GSMapViewController.swift */; };
+		2433499B264D44830025F496 /* GMSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24334995264D44830025F496 /* GMSViewController.swift */; };
 		24484428264B50D9000F9AA3 /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24484422264B50D9000F9AA3 /* MapPresenter.swift */; };
 		24484429264B50D9000F9AA3 /* MapWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24484423264B50D9000F9AA3 /* MapWorker.swift */; };
 		2448442A264B50D9000F9AA3 /* MapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24484424264B50D9000F9AA3 /* MapRouter.swift */; };
 		2448442B264B50D9000F9AA3 /* MapModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24484425264B50D9000F9AA3 /* MapModels.swift */; };
 		2448442C264B50D9000F9AA3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24484426264B50D9000F9AA3 /* MapViewController.swift */; };
 		2448442D264B50D9000F9AA3 /* MapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24484427264B50D9000F9AA3 /* MapInteractor.swift */; };
+		2468D26F264D4EF3002963CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2468D26E264D4EF3002963CE /* GoogleService-Info.plist */; };
 		248683EF264B4D0A00F0ECE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248683EE264B4D0A00F0ECE9 /* AppDelegate.swift */; };
 		248683F1264B4D0A00F0ECE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248683F0264B4D0A00F0ECE9 /* SceneDelegate.swift */; };
 		248683F3264B4D0A00F0ECE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248683F2264B4D0A00F0ECE9 /* ViewController.swift */; };
@@ -30,13 +31,14 @@
 
 /* Begin PBXFileReference section */
 		2433498B264CC1560025F496 /* StationsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsResponse.swift; sourceTree = "<group>"; };
-		24334995264D44830025F496 /* GSMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSMapViewController.swift; sourceTree = "<group>"; };
+		24334995264D44830025F496 /* GMSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMSViewController.swift; sourceTree = "<group>"; };
 		24484422264B50D9000F9AA3 /* MapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
 		24484423264B50D9000F9AA3 /* MapWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapWorker.swift; sourceTree = "<group>"; };
 		24484424264B50D9000F9AA3 /* MapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRouter.swift; sourceTree = "<group>"; };
 		24484425264B50D9000F9AA3 /* MapModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModels.swift; sourceTree = "<group>"; };
 		24484426264B50D9000F9AA3 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		24484427264B50D9000F9AA3 /* MapInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInteractor.swift; sourceTree = "<group>"; };
+		2468D26E264D4EF3002963CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		248683EB264B4D0A00F0ECE9 /* StudiousBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudiousBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		248683EE264B4D0A00F0ECE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		248683F0264B4D0A00F0ECE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,7 +87,7 @@
 		24484421264B5092000F9AA3 /* Map */ = {
 			isa = PBXGroup;
 			children = (
-				24334995264D44830025F496 /* GSMapViewController.swift */,
+				24334995264D44830025F496 /* GMSViewController.swift */,
 				24484422264B50D9000F9AA3 /* MapPresenter.swift */,
 				24484423264B50D9000F9AA3 /* MapWorker.swift */,
 				24484424264B50D9000F9AA3 /* MapRouter.swift */,
@@ -117,6 +119,7 @@
 		248683ED264B4D0A00F0ECE9 /* StudiousBus */ = {
 			isa = PBXGroup;
 			children = (
+				2468D26E264D4EF3002963CE /* GoogleService-Info.plist */,
 				24484420264B5087000F9AA3 /* Scenes */,
 				24868403264B4D7C00F0ECE9 /* Network */,
 				248683EE264B4D0A00F0ECE9 /* AppDelegate.swift */,
@@ -187,6 +190,7 @@
 				248683E8264B4D0A00F0ECE9 /* Frameworks */,
 				248683E9264B4D0A00F0ECE9 /* Resources */,
 				58DABEDECA77BFC28EAA101E /* [CP] Embed Pods Frameworks */,
+				FF94FA4188D17EADB7A6F2BF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +240,7 @@
 			files = (
 				248683FB264B4D0B00F0ECE9 /* LaunchScreen.storyboard in Resources */,
 				248683F8264B4D0B00F0ECE9 /* Assets.xcassets in Resources */,
+				2468D26F264D4EF3002963CE /* GoogleService-Info.plist in Resources */,
 				248683F6264B4D0A00F0ECE9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +287,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StudiousBus/Pods-StudiousBus-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FF94FA4188D17EADB7A6F2BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StudiousBus/Pods-StudiousBus-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StudiousBus/Pods-StudiousBus-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StudiousBus/Pods-StudiousBus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -293,7 +315,7 @@
 				2486840D264B4D7C00F0ECE9 /* APIRequest.swift in Sources */,
 				24484429264B50D9000F9AA3 /* MapWorker.swift in Sources */,
 				248683EF264B4D0A00F0ECE9 /* AppDelegate.swift in Sources */,
-				2433499B264D44830025F496 /* GSMapViewController.swift in Sources */,
+				2433499B264D44830025F496 /* GMSViewController.swift in Sources */,
 				24484428264B50D9000F9AA3 /* MapPresenter.swift in Sources */,
 				2486840B264B4D7C00F0ECE9 /* HereService.swift in Sources */,
 				2486840A264B4D7C00F0ECE9 /* StationsRequest.swift in Sources */,

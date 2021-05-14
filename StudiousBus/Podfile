@@ -6,5 +6,6 @@ target 'StudiousBus' do
   use_frameworks!
   pod 'URLQueryItemEncoder'
   # Pods for StudiousBus
-
+  pod 'Firebase/Analytics'
+  pod 'GoogleMaps'
 end

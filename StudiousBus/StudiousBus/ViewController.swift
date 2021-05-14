@@ -22,7 +22,23 @@ class ViewController: UIViewController {
         button.setTitle("MapView", for: .normal)
         button.setTitleColor(.red, for: .normal)
         button.addTarget(self, action: #selector(self.showMapView), for: .touchUpInside)
-        print("Loaded view")
+
+        let secondButton = UIButton()
+        view.addSubview(secondButton)
+
+        secondButton.translatesAutoresizingMaskIntoConstraints = false
+
+        secondButton.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 30).isActive = true
+        secondButton.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+
+        secondButton.setTitle("Google Maps", for: .normal)
+        secondButton.setTitleColor(.red, for: .normal)
+        secondButton.addTarget(self, action: #selector(self.showGoogleMaps), for: .touchUpInside)
+    }
+
+
+    @objc func showGoogleMaps() {
+        self.navigationController?.pushViewController(GMSViewController(), animated: true)
     }
 
     @objc func showMapView() {
